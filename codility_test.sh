@@ -8,7 +8,8 @@ for f in *; do
 	echo $f is a directory
         if [ $f == "videos" ]; then
 		mv comedy.mov horror.avi videos
+	elif [ $f == "images" ]; then
+		mv bike.png car.jpg ping.jpg images
 	fi
   fi
-  mv tree-small.jpeg pinga.jpg images
 done
